@@ -84,6 +84,25 @@ client.on('message', msg => {
   }
 });
 
+////////////////////////
+
+client.on("guildMemberAdd", member => {
+	
+	var channel = member.guild.channels.find("name", "giriş-çıkış");
+	if (!channel) return;
+	
+	var role = member.guild.roles.find("name", "üye");
+	if (!role) return;
+	
+	member.addRole(role); 
+	
+	channel.send(member + " artık " + role + " rolü ile aramızda https://cdn.discordapp.com/attachments/516675904374702091/519687343787999232/hosgeldiniz-resmi.gif");
+	
+	member.send("Aramıza hoş geldin! Seni Gördüğümüze Çok Sevindik. https://cdn.discordapp.com/attachments/516675904374702091/519687343787999232/hosgeldiniz-resmi.gif")
+	
+});
+
+////////////////////////
 client.elevation = message => {
   if(!message.guild) {
 	return; }
