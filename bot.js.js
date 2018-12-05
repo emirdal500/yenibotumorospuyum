@@ -104,6 +104,56 @@ client.on("guildMemberAdd", member => {
 
 ////////////////////////
 
+client.on('message', msg => {
+  if (msg.content === 'discord.gg') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'discord') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'https') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'http') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'discord.gg') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'youtube.com) {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'https://youtube.com') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+
 client.elevation = message => {
   if(!message.guild) {
 	return; }
