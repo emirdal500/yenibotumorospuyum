@@ -173,4 +173,5 @@ if (Math.floor((Math.random () * 3) + 1) === 1) {
 }
 
 });
+
 client.login(process.env.BOT_TOKEN);
