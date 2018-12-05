@@ -99,7 +99,7 @@ client.on("guildMemberAdd", member => {
 	channel.send(member + " artık " + role + " rolü ile aramızda https://cdn.discordapp.com/attachments/516675904374702091/519687343787999232/hosgeldiniz-resmi.gif");
 	
 	member.send("Aramıza hoş geldin! Seni Gördüğümüze Çok Sevindik. https://cdn.discordapp.com/attachments/516675904374702091/519687343787999232/hosgeldiniz-resmi.gif")
-	
+  
 });
 
 ////////////////////////
