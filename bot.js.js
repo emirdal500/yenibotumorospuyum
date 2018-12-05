@@ -96,7 +96,7 @@ client.on("guildMemberAdd", member => {
 	
 	member.addRole(role); 
 	
-	channel.send(member + " artık Sunucumuzda! Izmirli Mekanına Hoşgeldin! https://cdn.discordapp.com/attachments/516675904374702091/519687343787999232/hosgeldiniz-resmi.gif");
+	channel.send(member + " artık Sunucumuzda! Izmirli Mekanına Hoşgeldin! https://cdn.discordapp.com/attachments/516675904374702091/520022100162117645/HosgeldinizGifResmi.gif");
 	
 	member.send("Aramıza hoş geldin! Seni Gördüğümüze Çok Sevindik. https://cdn.discordapp.com/attachments/516675904374702091/519687343787999232/hosgeldiniz-resmi.gif")
   
