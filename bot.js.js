@@ -162,7 +162,7 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-if {msg.content === '-espri') {
+if (msg.content === '-espri') {
  if (Math.floor((Math.random () * 3) + 1) === 1) {
    msg.channel.send('Yağmur Yağmış, Kar Bal.');
 }else if (Math.floor((Math.random () * 3) + 1) === 2) {
