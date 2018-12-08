@@ -166,7 +166,7 @@ exports.run = (client, message, args) => {
             msg.edit('🚬 ');
         }, 4800);
     setTimeout(() => {
-            msg.edit('**Sigara bitti** Not: Sigara Icme Lan Pezevenk!');
+            msg.edit('**Sigara bitti** Not: Sigara sağlığa zararlıdır Lütfen sigara içmeyiniz!');
         }, 5300);
     });
 };
@@ -180,10 +180,9 @@ exports.conf = {
 
 exports.help = {
   name: 'sigara',
-  description: 'Sigara icersiniz.',
+  description: 'Sigara iÃ§ersiniz.',
   usage: 'sigara'
 };
-
 
 ////////////////////////
 
