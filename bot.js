@@ -180,7 +180,7 @@ exports.conf = {
 
 exports.help = {
   name: 'sigara',
-  description: 'Sigara iÃ§ersiniz.',
+  description: 'Sigara icersiniz.',
   usage: 'sigara'
 };
 
