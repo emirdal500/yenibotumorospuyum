@@ -136,7 +136,7 @@ message.channel.send(level)
   }
 });
 
-xports.run = (client, message, args) => {
+exports.run = (client, message, args) => {
     message.channel.send("Psst. YakÄ±yorum.").then(async msg => {
                     setTimeout(() => {
             message.react('🚬');
@@ -166,7 +166,7 @@ xports.run = (client, message, args) => {
             msg.edit('🚬 ');
         }, 4800);
     setTimeout(() => {
-            msg.edit('**Sigara bitti** Yakayimmi Abi Bitane Daha  🚬 🔥 🔥 🔥 ');
+            msg.edit('**Sigara bitti** Yakayimmi Abi Bitane Daha 🚬 🔥 🔥 🔥');
         }, 5300);
     });
 };
@@ -180,7 +180,7 @@ exports.conf = {
 
 exports.help = {
   name: 'sigara',
-  description: 'Sigara icersiniz.',
+  description: 'Sigara iÃ§ersiniz.',
   usage: 'sigara'
 };
 
