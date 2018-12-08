@@ -166,7 +166,7 @@ exports.run = (client, message, args) => {
             msg.edit('🚬 ');
         }, 4800);
     setTimeout(() => {
-            msg.edit('**Sigara bitti** Yakayimmi Abi Bitane Daha 🚬 🔥 🔥 🔥');
+            msg.edit('**Sigara bitti** Not: Sigara Icme Lan Pezevenk!');
         }, 5300);
     });
 };
