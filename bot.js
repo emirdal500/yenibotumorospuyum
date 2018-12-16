@@ -184,6 +184,18 @@ exports.help = {
   usage: 'sigara'
 };
 
+if {msg.content === '-espri') {
+if (Math.floor((Math.random () * 3) + 1) === 1) {
+  msg.channel.send('Yağmur Yağmış, Kar Bal.');
+}else if (Math.floor((Math.random () * 3) + 1) === 2) {
+  msg.channel.send('Elektriği Edison buldu ama parasını niye biz ödüyoruz.');
+}else if (Math.floor((Math.random () * 3) + 1) === 3) {
+  msg.channel.send('Yoldan Fıstık Gibi Kız  Geçiyormuş Kıza Araba Çarpmış Nolmuş?\n-Fıstık Ezmesi');
+  }
+}
+
+});
+
 ////////////////////////
 
 client.on("guildMemberAdd", member => {
