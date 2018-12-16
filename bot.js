@@ -196,9 +196,9 @@ client.on("guildMemberAdd", member => {
 	
 	member.addRole(role); 
 
-	channel.send(member + " artık Sunucumuzda! Izmirli Mekanına Hoşgeldin https://cdn.discordapp.com/attachments/516675904374702091/520673505847541760/Aramza_hosgeldin.gif");
+	channel.send(member + " artık Sunucumuzda! Izmirli Mekanına Hoşgeldin https://media.giphy.com/media/1X5ZXNgZSMOvMoqeTm/giphy.gif");
 	
-	member.send("Aramıza hoş geldin! Seni Gördüğümüze Çok Sevindik. https://cdn.discordapp.com/attachments/516675904374702091/520673505847541760/Aramza_hosgeldin.gif")
+	member.send("Aramıza hoş geldin! Seni Gördüğümüze Çok Sevindik. https://media.giphy.com/media/1X5ZXNgZSMOvMoqeTm/giphy.gif")
   
 });
 
