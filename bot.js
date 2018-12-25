@@ -184,25 +184,13 @@ exports.help = {
   usage: 'sigara'
 };
 
-////////////////////////
-
 client.on("guildMemberAdd", member => {
-	
-	var channel = member.guild.channels.find("name", "giriş-çıkış");
-	if (!channel) return;
-	
-	var role = member.guild.roles.find("name", "💦Üyemiz💦");
-	if (!role) return;
-	
-	member.addRole(role); 
-
-	channel.send(member + " artık Sunucumuzda! Izmirli Mekanına Hoşgeldin https://media.giphy.com/media/1X5ZXNgZSMOvMoqeTm/giphy.gif");
-	
-	member.send("Aramıza hoş geldin! Seni Gördüğümüze Çok Sevindik. https://media.giphy.com/media/1X5ZXNgZSMOvMoqeTm/giphy.gif")
-  
+    let otorol = JSON.parse(fs.readFileSync("./ayarlar/otorol.json", "utf8"));
+    if (!otorol[member.guild.id]) return;
+    var role = otorol[member.guild.id].role;
+    if (!role) return;
+    member.addRole(role);
 });
-
-////////////////////////
 
 client.on('message', msg => {
   if (msg.content === 'discord.gg') {
