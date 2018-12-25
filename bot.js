@@ -196,7 +196,7 @@ client.on("guildMemberAdd", member => {
 	
 	member.addRole(role); 
 	
-	channel.send(member + " artik bizden biri!");
+	channel.send(member + " https://media.giphy.com/media/1X5ZXNgZSMOvMoqeTm/giphy.gif Hosgeldin Guzel Kardesim.");
 	
 	member.send("Aramıza hoş geldin! Artik Sende Bizden Biri Oldun!")
 	
