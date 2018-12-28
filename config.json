@@ -1,11 +1,11 @@
 {
-	"token": "YOUR LOGIN TOKEN HERE",
+	"token": "sananeyarram",
 	"servers": [
-		"ID 1ST SERVER",
-		"ID 2ND SERVER"
+		"518045468094365696",
+		"518045468094365696"
 	],
-	"roleName": "THE ROLE NAME YOU WANT TO CHANGE ITS COLOR FROM HERE",
+	"roleName": "disko",
 	"colors": 12,
-	"speed": 60000,
+	"speed": 6000,
 	"logging": true
 }
