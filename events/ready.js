@@ -59,7 +59,7 @@ console.log('Bot hazır ve giriş yaptı Üstadım.');
 
         var random = Math.floor(Math.random()*(Games.length-0+1)+0);
 
-        client.user.setGame(Games[random], "https://www.twitch.tv/EmirDal40");
+        client.user.setGame(Games[random], "https://www.twitch.tv/MustafaArdaTR");
         }, 2 * 2500);
 
 };  
