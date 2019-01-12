@@ -191,14 +191,14 @@ client.on("guildMemberAdd", member => {
 	var channel = member.guild.channels.find("name", "giriş-çıkış");
 	if (!channel) return;
 	
-	var role = member.guild.roles.find("name", "💦Üyemiz💦");
+	var role = member.guild.roles.find("name", "🖥️Yeni Değerli Üyemiz🖥️");
 	if (!role) return;
 	
 	member.addRole(role); 
 	
-	channel.send(member + " https://media.giphy.com/media/1X5ZXNgZSMOvMoqeTm/giphy.gif Hosgeldin Guzel Kardesim.");
+	channel.send(member + "Hey Güzel kişi Klana Katılmak İstiyorsan Kurucuyla İletişime Geçebilirsin");
 	
-	member.send("Aramıza hoş geldin! Artik Sende Bizden Biri Oldun!")
+	member.send("Aramıza hoş geldin!")
 	
 });
 
