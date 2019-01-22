@@ -196,9 +196,9 @@ client.on("guildMemberAdd", member => {
 	
 	member.addRole(role); 
 	
-	channel.send(member + "Hey Güzel kişi Klana Katılmak İstiyorsan Kurucuyla İletişime Geçebilirsin");
+	channel.send(member + "Hoşgeldin Değerli Üyemiz! https://cdn.discordapp.com/attachments/516675904374702091/537398606047477761/giphy_15.gif");
 	
-	member.send("Aramıza hoş geldin!")
+	member.send("Aramıza hoş geldin! ")
 	
 });
 
