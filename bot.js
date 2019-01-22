@@ -219,6 +219,13 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === 'https://discord.gg/') {
+   msg.delete(30)
+    msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === 'https') {
    msg.delete(30)
     msg.reply(':warning:Hoopp Niye Reklam Yapıyon Kardeş:warning:');
