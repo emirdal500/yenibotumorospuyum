@@ -84,6 +84,18 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sıkıldım') {
+    msg.reply('Bende Sıkıldım ya napsak kanka acaba?');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'merhaba') {
+    msg.reply('Merhaba kanka nasılsın inşallah işler yolundadır :D');
+  }
+});
+
 const snekfetch = require('snekfetch');
 let points = JSON.parse(fs.readFileSync('./xp.json', 'utf8'));
 
